@@ -10,3 +10,22 @@
 - Made FGC mode in two variants, WASD and traditional leverless, so as to stay Capcom-legal.
 - Adjusted FGC mode to include Start, Select, and Home buttons for PS4/5 usage.
 
+# Layouts and Modes
+Modes are as follows:
+## Melee
+![new layouts for beta-02](https://github.com/user-attachments/assets/92fe4ce2-c0be-4082-ac32-df7343447c43)
+
+## PM/P+
+
+## Ultimate
+
+## FGC
+![new layouts for beta-07](https://github.com/user-attachments/assets/ead6591d-154d-425d-a923-806b92183f10)
+
+## Rivals
+
+## Melee WASD
+![new layouts for beta-03](https://github.com/user-attachments/assets/a47b83f8-9569-410d-a636-7781e738512c)
+
+## FGC WASD
+![new layouts for beta-08](https://github.com/user-attachments/assets/d5d19fae-12ec-4126-b88c-31c09eed7d2e)
