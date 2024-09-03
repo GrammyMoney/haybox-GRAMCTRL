@@ -267,7 +267,7 @@ void Melee21ButtonWASD::UpdateAnalogOutputs(InputState &inputs, OutputState &out
     }
 
     // Shut off C-stick when using D-Pad layer.
-    if ((inputs.mod_x && inputs.mod_y) || inputs.nunchuk_c) {
+    if ((inputs.mod_x && inputs.mod_y) || inputs.nunchuk_c || inputs.up) {
         outputs.rightStickX = 128;
         outputs.rightStickY = 128;
     }
