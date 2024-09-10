@@ -77,7 +77,7 @@ void Ultimate::UpdateAnalogOutputs(InputState &inputs, OutputState &outputs) {
     if (inputs.mod_x) {
         if (directions.horizontal) {
             // MX + Horizontal = 6625 = 53
-            outputs.leftStickX = 128 + (directions.x * 53);
+            outputs.leftStickX = 128 + (directions.x * 66);
             // Horizontal Shield tilt = 51
             if (shield_button_pressed) {
                 outputs.leftStickX = 128 + (directions.x * 51);
