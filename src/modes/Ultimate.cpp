@@ -163,6 +163,7 @@ void Ultimate::UpdateAnalogOutputs(InputState &inputs, OutputState &outputs) {
             if (inputs.a) {
                 outputs.leftStickY = 128 + (directions.y * 36);
             }
+        }
 
         if (directions.diagonal) {
             // MY + q1/2/3/4 = 35 59
@@ -235,8 +236,8 @@ void Ultimate::UpdateAnalogOutputs(InputState &inputs, OutputState &outputs) {
 
             // MY Pivot Uptilt/Dtilt
             if (inputs.a) {
-                outputs.leftStickX = 128 + (directions.x * 34);
-                outputs.leftStickY = 128 + (directions.y * 38);
+                outputs.leftStickX = 128 + (directions.x * 38);
+                outputs.leftStickY = 128 + (directions.y * 69);
             }
         }
     }
