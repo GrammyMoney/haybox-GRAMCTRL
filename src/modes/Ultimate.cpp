@@ -107,7 +107,8 @@ void Ultimate::UpdateAnalogOutputs(InputState &inputs, OutputState &outputs) {
                 outputs.leftStickX = 128 + (directions.x * 51);
                 outputs.leftStickY = 128 + (directions.y * 30);
             }
-
+            
+            /* Up B angles */
             // (39.05) = 53 43
             if (inputs.c_down) {
                 outputs.leftStickX = 128 + (directions.x * 53);
