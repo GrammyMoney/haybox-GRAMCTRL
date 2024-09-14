@@ -166,9 +166,9 @@ void Ultimate::UpdateAnalogOutputs(InputState &inputs, OutputState &outputs) {
         }
 
         if (directions.diagonal) {
-            // MY + q1/2/3/4 = 35 59
+            // MY + q1/2/3/4 = 35 53
             outputs.leftStickX = 128 + (directions.x * 35);
-            outputs.leftStickY = 128 + (directions.y * 59);
+            outputs.leftStickY = 128 + (directions.y * 53);
             if (shield_button_pressed) {
                 // MY + L, R, LS, and MS + q1/2 = 38 70
                 outputs.leftStickX = 128 + (directions.x * 38);
