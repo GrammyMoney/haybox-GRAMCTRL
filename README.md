@@ -7,7 +7,9 @@
 
 # Changes made:
 **Introduction of a 21st "up2" button that acts as the up button in WASD modes. By default, the button acts as a D-Pad toggle (in the same way ModX+ModY does in the original firmware).**
+
 **Made FGC mode in two variants, WASD and traditional leverless, so as to stay Capcom-legal.**
+
 **Adjusted FGC mode to include Start, Select, and Home buttons for PS4/5 usage.**
 
 **Changes to Ultimate mode (thanks [DBryce](https://github.com/dbryce712)!):**
