@@ -1,7 +1,7 @@
 #include "modes/FgcModeWASD.hpp"
 
 FgcModeWASD::FgcModeWASD(socd::SocdType horizontal_socd, socd::SocdType vertical_socd) {
-    _socd_pair_count = 4;
+    _socd_pair_count = 2;
     _socd_pairs = new socd::SocdPair[_socd_pair_count]{
         socd::SocdPair{&InputState::left,   &InputState::right, horizontal_socd         },
  /* Mod X override C-Up input if both are pressed. Without this, neutral SOCD doesn't work
