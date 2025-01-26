@@ -1,4 +1,5 @@
-# HayBox-GRAMCTRL
+# **OUTDATED, CURRENT FIRMWARE CAN BE FOUND [HERE](https://github.com/GRAMCTRL/HayBox-GRAM)**
+
  Haybox Build for GRAM Controllers.
 
  For official HayBox Documentation, as well as descriptions of how to build, modify, and use this code, refer to the original documentation [here](https://github.com/JonnyHaystack/HayBox).
